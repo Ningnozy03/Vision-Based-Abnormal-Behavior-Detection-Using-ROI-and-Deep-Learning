@@ -1,0 +1,27 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Model / weights
+*.pt
+*.pth
+*.onnx
+
+# Runtime outputs
+outputs/
+logs/
+clips/
+events/
+
+# Local config
+configs/*.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
