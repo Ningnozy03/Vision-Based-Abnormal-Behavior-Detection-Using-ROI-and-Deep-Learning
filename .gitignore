@@ -6,22 +6,23 @@ __pycache__/
 *.pyo
 *.pyd
 
-# Model / weights
+# YOLO model
 *.pt
 *.pth
 *.onnx
 
-# Runtime outputs
+# Output data
 outputs/
 logs/
 clips/
 events/
+live/
 
-# Local config
-configs/*.json
+# Experiment files
+_experiment/
 
-# OS / editor
-.DS_Store
-Thumbs.db
+# OS / Editor
 .vscode/
 .idea/
+.DS_Store
+Thumbs.db
