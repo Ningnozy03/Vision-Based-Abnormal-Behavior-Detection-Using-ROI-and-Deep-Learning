@@ -26,7 +26,7 @@ DISP_W,  DISP_H  = 960, 540
 os.environ["OPENCV_FFMPEG_CAPTURE_OPTIONS"] = "rtsp_transport;tcp|stimeout;5000000"
 
 # For testing, I can use a local video file or My webcam by changing the url variable.
-url = "rtsp://Ningfinal:20032005@192.168.0.110:554/stream1"
+url = "rtsp://Ningfinal:20032005@111.111.1.111:554/stream1"
 
 ROI_PATH = "configs/roi.json"
 CONFIG_PATH = "configs/config.json"
